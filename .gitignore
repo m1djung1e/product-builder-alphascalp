@@ -1,1 +1,4 @@
 firebase-debug.log
+public/
+resources/_gen/
+.hugo_build.lock

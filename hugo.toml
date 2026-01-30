@@ -1,0 +1,63 @@
+baseURL = 'https://alphascalp.org/'
+languageCode = 'en-us'
+title = 'AlphaScalp Lab'
+theme = 'PaperMod'
+
+[params]
+  description = "Research notes on trading strategies, market microstructure, and algorithmic execution"
+  author = "AlphaScalp"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  [params.homeInfoParams]
+    Title = "AlphaScalp Lab"
+    Content = """
+A research-driven trading lab focused on price action, market microstructure,
+and systematic strategies.
+
+This space documents strategy design, signal validation, execution logic,
+and post-trade analysis — with an emphasis on robustness over hype.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/m1djung1e"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
