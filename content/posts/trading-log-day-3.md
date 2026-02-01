@@ -1,6 +1,6 @@
 ---
-title: "Trading Log — Building the Trading Pipeline (Day 4)"
-date: 2026-02-02
+title: "Trading Log — Building the Trading Pipeline (Day 3)"
+date: 2026-02-01
 description: "Turning ideas into a working signal pipeline. No strategies, no optimization—just making sure the system can receive, validate, and route signals correctly."
 ---
 
